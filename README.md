@@ -22,7 +22,7 @@ To run the project locally:
 1.  Clone this repository:
 
     ```bash
-    git clone <repository-url>
+    git clone <https://github.com/mehmetulker/blog-preview-card.git>
     ```
 
 2.  Navigate to the project directory:
