@@ -1,55 +1,45 @@
-# Blog Preview Card Challenge
+# Blog Preview Card
 
-This project is a solution I created using HTML and CSS for the Blog Preview Card design from Frontend Mentor. **It was converted from a Figma design**, and I aimed to replicate the given design as closely as possible.
+This interface began life as a polished Figma artboard from Frontend Mentor, and every pixel you see here was **meticulously translated from that design into production-ready HTML and CSS**. The goal was to recreate the visual story of the mockup with code that feels just as intentional—typography, color, rhythm, and responsive breakpoints all intact.
 
 ## Screenshot
 
 ![Blog Preview Card](./assets/images/desktop-design.png)
 
-## Technologies Used
+## Built With
 
-- HTML
-- CSS
-  - Custom Properties (CSS Variables)
-  - `@font-face` (Custom font usage)
-  - Flexbox
-  - Media Queries (For responsive design)
+- HTML5
+- CSS3
+  - CSS custom properties
+  - `@font-face` for the FigTree typeface
+  - Flexbox layout
+  - Media queries for responsive behavior
 
-## Setup
+## Run Locally
 
-To run the project locally:
+```bash
+git clone https://github.com/mehmetulker/blog-preview-card.git
+cd blog-preview-card
+```
 
-1.  Clone this repository:
+Open `index.html` in your browser to explore the build.
 
-    ```bash
-    git clone <https://github.com/mehmetulker/blog-preview-card.git>
-    ```
+## From Figma to Front-End
 
-2.  Navigate to the project directory:
+- Extracted spacing, color tokens, and font scales directly from the Figma design system and mapped them to reusable CSS variables.
+- Packaged the FigTree font files from the design handoff and registered them via `@font-face` to match the exact typography.
+- Implemented the desktop-to-mobile layout shifts exactly as defined in the prototype so the card responds with the same cadence the designer specified.
 
-    ```bash
-    cd blog-preview-card
-    ```
+## Implementation Notes
 
-3.  Open the `index.html` file in your browser.
-
-## Features
-
-- **Responsive Design:** Adapts to different screen sizes.
-- **Custom Font:** Uses the "FigTree" font.
-- **CSS Variables:** CSS variables are used for colors, fonts, and spacing.
-- **Figma Conversion:** Closely replicates the original Figma design.
-
-## Areas for Improvement
-
-- Enrich the design by using more CSS features.
-- Add interactivity with JavaScript (e.g., animations on card hover).
-- Make accessibility improvements.
+- **Hover interactions:** Accent color transitions mirror the prototype cues for card and button states.
+- **Semantic structure:** Headings, descriptions, and metadata use meaningful HTML tags for accessibility.
+- **Lean assets:** Only the assets required by the Figma board are shipped to keep the bundle lightweight.
 
 ## Contributing
 
-If you'd like to contribute, please open an issue or submit a pull request.
+Suggestions and improvements are welcome—please open an issue or submit a pull request.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
