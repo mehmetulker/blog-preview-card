@@ -6,6 +6,14 @@ This interface began life as a polished Figma artboard from Frontend Mentor, and
 
 ![Blog Preview Card](./assets/images/desktop-design.png)
 
+## Live Demo
+
+Experience the component at the [Live Demo](https://mehmetulker.github.io/blog-preview-card/).
+
+## Repository
+
+Full source code lives at the [GitHub Repository](https://github.com/mehmetulker/blog-preview-card).
+
 ## Built With
 
 - HTML5
